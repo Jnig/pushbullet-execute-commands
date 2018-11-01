@@ -1,0 +1,27 @@
+{
+  "name": "pushbullet-execute-commands",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pkg . -o pushbullet-exec"
+  },
+  "pkg": {
+    "targets": [
+      "linux"
+    ] 
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "commander": "^2.19.0",
+    "execa": "^1.0.0",
+    "nodemon": "^1.18.5",
+    "pkg": "^4.3.4",
+    "token": "^0.1.0",
+    "ws": "^6.1.0"
+  }
+}
